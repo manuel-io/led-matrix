@@ -1,0 +1,12 @@
+*.o
+*.hex
+*.bin
+*.map
+*.d
+*.elf
+*-
+*~
+test
+docs
+graphics
+*.lock
