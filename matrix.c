@@ -69,6 +69,7 @@ reset()
   PORTB &= ~(1 << CLR);
   PORTB &= ~(1 << PRT);
   PORTB |= (1 << CLR);
+  toggle(RCK);
 }
 
 static void
